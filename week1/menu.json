@@ -1,0 +1,52 @@
+{
+    "appetizers":[
+        {"name":"Spinach Dip",
+        "ingredients": ["spinach", "cream cheese", "tortilla chips"],
+        "description": "Spinach Dip w/Chips"
+        },
+        {"name":"mozzerella sticks",
+         "ingredients": ["breading", "mozzerella cheese"], 
+          "description":"Fried Mozzerella Sticks"
+        }
+    ],
+    "cold sandwiches":[
+        {"name":"Bologne Sandwhich",
+            "ingredients": ["bread", "ketchup", "bologne", "american cheese", "tomato", "overeasy egg", "mustard", "mayo"],
+            "description": "Cold Bologne Sandwhich"
+            },
+            {"name":"Tukey Sandwich",
+             "ingredients": ["bread", "turkey", "american cheese", "tomato", "lettuce", "mayo"], 
+              "description":"Cold Turkey Sandwich"
+            }
+    ],
+    "hot sandwiches":[
+        {"name":"Tuna Melt",
+            "ingredients": ["bread", "american cheese", "butter", "tuna"],
+            "description": "Tuna Melt"
+            },
+            {"name":"Bacon Gouda Sandwhich",
+             "ingredients": ["bread", "Gouda cheese","egg","bacon"], 
+              "description":"Bacon Gouda Sandwhich"
+            }
+    ],
+    "desserts":[
+        {"name":"Banananut Muffin",
+            "ingredients": ["Smshed bananas","flour","sugar", "nuts"],
+            "description": "Banana Nut Muffin"
+            },
+            {"name":"Strawberry Cheesecake",
+             "ingredients": ["sugar", "cream cheese", "graham crackers"], 
+              "description":"Strawberry Cheesecake Slice"
+            }
+    ],
+    "drinks":[
+        {"name":"Iced Black Tea",
+            "ingredients": ["tea", "sugar"],
+            "description": "Black Tea over ice"
+            },
+            {"name":"Caramel Macchiato",
+             "ingredients": ["coffee", "ice", " caramel"], 
+              "description":"Iced Caramel Macchiato"
+            }
+    ]   
+}
