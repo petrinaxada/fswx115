@@ -4,7 +4,6 @@ pageHeader.textContent = "Pokemon";
 document.body.appendChild(pageHeader);
 //Use XMLHttpRequest to fetch and display the individual pokemon data.
 const xhr = new XMLHttpRequest();
-
 xhr.open("GET", "https://pokeapi.co/api/v2/pokemon", true);
 xhr.send();
 
@@ -21,7 +20,6 @@ xhr.onreadystatechange = function() {
         document.body.appendChild(failFetch);
     }
 }
-
 function displayData(data) {
     for (i=0; i<data.length; i++)
     {
@@ -29,13 +27,10 @@ function displayData(data) {
         newEntry.textContent = data[i].name;
         document.body.appendChild(newEntry);
         let entryList = document.createElement("ul");
-
         //Use XMLHttpRequest to fetch and display individual pokemon ability data.
         const addRequest = new XMLHttpRequest();
-
         addRequest.open("GET", `https://pokeapi.co/api/v2/pokemon/`, true);
         addRequest.send();
-
         addRequest.onreadystatechange = function() {
             if (addRequest.readyState == 4 && addRequest.status == 200)
             {
@@ -48,7 +43,6 @@ function displayData(data) {
                 failedStuff.textContent = "Failed To Retrieve Data";
                 entryList.appendChild(failedStuff);
             }
-
             function displayStuffs(data) {
                 for (i=0; i<data.length; i++)
                 {
@@ -62,3 +56,4 @@ function displayData(data) {
         document.body.appendChild(entryList);
     }
 }
+///reference: e.yarborough & d. caviness
