@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: cornflowerblue;
+    text-decoration: 5px underline;
+    font-size: 50px;
+} 
+
+h2, h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background: url("beach.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+#flexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox{
+    margin: 10px;
+    width: 160px;
+}
+
+.newTask{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
